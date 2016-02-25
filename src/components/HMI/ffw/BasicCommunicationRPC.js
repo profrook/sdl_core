@@ -459,10 +459,6 @@ FFW.BasicCommunication = FFW.RPCObserver
                 }
                 if (request.method == "BasicCommunication.UpdateAppList") {
 
-                    var message = "Was found " + request.params.applications.length + " apps";
-
-                    SDL.PopUp.create().appendTo('body').popupActivate(message);
-
                     SDL.SDLModel.set('updatedAppsList', request.params.applications);
 
                     SDL.InfoAppsView.showAppList();

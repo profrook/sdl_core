@@ -49,10 +49,6 @@ SDL.ControlButtons = Em.ContainerView
             'TTSVRLanguages',
             'UILanguagesLabel',
             'TTSVRLanguagesLabel',
-            'appUILanguagesLabel',
-            'appTTSVRLanguagesLabel',
-            'appUILang',
-            'appTTSVRLang',
             'phoneCall'
         ],
 
@@ -152,7 +148,7 @@ SDL.ControlButtons = Em.ContainerView
 
             classNames: 'TTSVRLanguagesLabel',
 
-            content: 'TTS + VR Languages'
+            content: 'TTS&nbsp;+&nbsp;VR&nbsp;Languages'
         }),
 
         /*
